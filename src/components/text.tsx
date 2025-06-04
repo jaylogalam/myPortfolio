@@ -21,7 +21,7 @@ export default Text;
 const textVariants = cva("font-sans", {
   variants: {
     variant: {
-      hero: "text-6xl font-bold",
+      hero: "text-5xl font-bold",
       title: "text-4xl font-semibold",
       subtitle: "text-2xl",
       body: "text-lg",

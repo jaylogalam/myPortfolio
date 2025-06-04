@@ -1,11 +1,11 @@
 // Router for Pages
 import { Routes, Route } from "react-router-dom";
-import Main from "./main";
+import Home from "./Home";
 
 function Router() {
   return (
     <Routes>
-      <Route path="/" element={<Main />} />
+      <Route path="/" element={<Home />} />
     </Routes>
   );
 }
