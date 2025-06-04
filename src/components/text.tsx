@@ -18,13 +18,13 @@ Text.displayName = "Text";
 
 export default Text;
 
-const textVariants = cva("font-sans", {
+const textVariants = cva("font-sans p-2", {
   variants: {
     variant: {
       hero: "text-5xl font-bold",
       title: "text-4xl font-semibold",
       subtitle: "text-2xl",
-      body: "text-lg",
+      body: "text-lg font-medium",
       highlight: "text-lg font-semibold",
       caption: "text-sm text-gray-500",
     },

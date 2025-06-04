@@ -3,7 +3,7 @@ import Router from "./router";
 
 function Layout() {
   return (
-    <div>
+    <div className="flex justify-center">
       <Router />
     </div>
   );
