@@ -5,7 +5,7 @@ import Home from "./Home";
 function Router() {
   return (
     <Routes>
-      <Route path="/portfolio" element={<Home />} />
+      <Route path="/portfolio/" element={<Home />} />
     </Routes>
   );
 }
