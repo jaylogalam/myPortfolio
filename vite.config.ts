@@ -15,5 +15,5 @@ export default defineConfig({
     },
   },
   plugins: [react(), tailwindcss()],
-  base: "/jaylogalam"
+  base: "/portfolio/"
 });
